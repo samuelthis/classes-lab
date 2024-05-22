@@ -36,7 +36,7 @@ class Book {
    }
    isBorrowed(){
     return this.returnBook();
-   }
+   } 
    getInfo(){
     console.log(`Title: ${this.title}, Author: ${this.author}, Year: ${this.year}, Borrowed: ${this.borrowed}`)
    }
